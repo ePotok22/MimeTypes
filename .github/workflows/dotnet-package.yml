@@ -10,7 +10,7 @@ env:
   DOTNET_VERSION: '6.0.x'
 
 jobs:
-  build-test-package:
+  build-package:
     runs-on: windows-latest
       
     steps:  
