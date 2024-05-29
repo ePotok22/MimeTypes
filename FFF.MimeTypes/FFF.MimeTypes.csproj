@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<Title>Mime Types</Title>
+		<Copyright>Copyright © 2024</Copyright>
+		<IncludeSymbols>False</IncludeSymbols>
+		<EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+		<PackageTags>Mime, Extension</PackageTags>
+		<Description>The MimeTypeMap class in C# provides a thread-safe way to map file extensions to MIME types and vice versa. It leverages concurrent dictionaries to ensure that operations can safely occur in multi-threaded environments. The class includes a set of methods that allow users to retrieve MIME types based on file extensions and retrieve file extensions based on MIME types. It also handles exceptions and provides default MIME types when specific mappings are not found. This class is particularly useful in environments where file types need to be dynamically recognized and processed, such as in web servers and content management systems.</Description>
+		<Authors>FFF</Authors>
+		<Product>Mime Types</Product>
+		<Version>1.0.0</Version>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+		<PackageProjectUrl>https://www.nuget.org/packages/FFF.MimeTypes</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/ePotok22/MimeTypes</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>
